@@ -11,7 +11,7 @@ public class Database {
 		Connection conn = null;
 		try {
 			DriverManager.registerDriver(new com.microsoft.sqlserver.jdbc.SQLServerDriver());
-			String url = "jdbc:sqlserver://localhost:1433;databasename=NhaSach;encrypt=true;trustServerCertificate=true";
+			String url = "jdbc:sqlserver://localhost:1433;databasename=QLCHBQA;encrypt=true;trustServerCertificate=true";
 			String username = "sa";
 			String password = "hoanganhtuan";
 			conn = DriverManager.getConnection(url, username, password);
