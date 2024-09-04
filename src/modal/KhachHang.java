@@ -49,4 +49,8 @@ public class KhachHang {
 		this.Thongtinlienhe = Thongtinlienhe;
 		this.Diachi = Diachi;
 	}
+	
+	 public KhachHang(int KhachhangID) {
+	        this.KhachhangID = KhachhangID;
+	    }
 }
