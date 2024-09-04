@@ -5,7 +5,7 @@ import modal.KhachHang;
 
 public class Main {
 	public static void main(String[] args) {
-		KhachHang khachhang1 = new KhachHang(' ',"Tuan", "tuanhoan@gmail.com", "To 14");
-		KhachHangDAO.getInstance().insert(khachhang1);
+		KhachHang khachhang1 = new KhachHang(22);
+		KhachHangDAO.getInstance().delete(khachhang1);
 	}
 }
