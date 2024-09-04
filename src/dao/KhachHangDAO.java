@@ -20,8 +20,8 @@ public class KhachHangDAO implements DAOInterface<KhachHang> {
 			Connection conn = Database.getConnection();
 			Statement st = conn.createStatement();
 			
-			String sql = String.format("INSERT INTO khachHang(hoTen, ngaySinh, diaChi) VALUES('%s', '%s', '%s')", 
-			        t.getHoTen(), t.getNgaySinh(), t.getDiaChi());
+			String sql = String.format("INSERT INTO KhachHang(KhachhangName, Thongtinlienhe, Diachi) VALUES('%s', '%s', '%s')", 
+			        t.getKhachhangName(), t.getThongtinlienhe(), t.getDiachi());
 			
 			System.out.println(sql);
 			ketqua = st.executeUpdate(sql);
